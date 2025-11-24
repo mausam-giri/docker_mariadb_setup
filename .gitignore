@@ -1,0 +1,9 @@
+# Environment variables
+.env
+
+# Docker volumes
+mysql_data/
+
+# Database dumps (may contain sensitive data)
+dumps/*.sql
+!dumps/README.md
